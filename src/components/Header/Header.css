@@ -1,0 +1,94 @@
+@import "../../project.css";
+
+.header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+  opacity: 0.5;
+  position: relative; */
+  background-image: url("../src/assets/top.svg");
+  /* background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1; */
+  color: var(--fontColors);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(176, 176, 176, 0.7);
+  z-index: 1;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  z-index: 1;
+}
+
+.wrapper img {
+  max-width: 25%;
+  height: auto;
+}
+
+.baikalImage {
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.name p {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.name p:nth-child(2) {
+  transform: translateX(40px);
+}
+
+.name p:nth-child(3) {
+  transform: translateX(60px);
+}
+
+@media screen and (max-width: 640px) {
+  .name p {
+    font-size: 24px;
+  }
+
+  .name p:nth-child(2) {
+    transform: translateX(20px);
+  }
+
+  .name p:nth-child(3) {
+    transform: translateX(40px);
+  }
+}

@@ -1,11 +1,11 @@
 import { BrowserRouter } from "react-router-dom";
-import Home from "../src/pages/Home";
-import Navigation from "./components/Navigation/Navigation";
+import Header from "@components/Header/Header";
+import Navigation from "@components/Navigation/Navigation";
 
 function App() {
   return (
     <>
-      <Home />
+      <Header />
       <BrowserRouter>
         <Navigation />
       </BrowserRouter>

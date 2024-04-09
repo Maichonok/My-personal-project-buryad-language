@@ -1,7 +1,8 @@
 import "./Header.css";
-import Girl from "../../assets/girl.svg";
-import Baikal from "../../assets/Baikal.svg";
-import GirlAndBoy from "../../assets/girl_and_boy.svg";
+import Girl from '@assets/girl.svg';
+import Baikal from '@assets/Baikal.svg';
+import GirlAndBoy from '@assets/girl_and_boy.svg';
+
 
 export default function Header() {
   return (

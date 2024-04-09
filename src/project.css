@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--backgroundMain);
+}
+
+#root {
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --white: #fff;
+  --black: #000;
+  --backgroundMain: #f7f5dc;
+  --backgroundNav: #557b6d;
+  --fontColors: #ff8800;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px; /* Установите желаемую высоту */
+  opacity: 0.2; /* Установите желаемую прозрачность */
+  position: relative;
+  background-image: url(../src/assets/top.svg);
+}
+
+.girlImage {
+  width: 15%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}

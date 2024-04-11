@@ -1,8 +1,7 @@
 import "./Header.css";
-import Girl from '@assets/girl.svg';
-import Baikal from '@assets/Baikal.svg';
-import GirlAndBoy from '@assets/girl_and_boy.svg';
-
+import Girl from "@assets/girl.svg";
+import Baikal from "@assets/Baikal.svg";
+import GirlAndBoy from "@assets/girl_and_boy.svg";
 
 export default function Header() {
   return (
@@ -19,7 +18,6 @@ export default function Header() {
           <img src={GirlAndBoy} alt="GirlAndBoy" className="girlAndBoyImage" />
         </div>
       </header>
-      <p>Welcome to my platform!</p>
     </main>
   );
 }
